@@ -1,0 +1,8 @@
+[conf]
+# Prefer Ninja (works well cross-platform if installed)
+tools.cmake.cmaketoolchain:generator=Ninja
+
+[tool_requires]
+# Use build tools as Conan packages (requires conancenter remote)
+cmake/[>=3.23]
+ninja/[>=1.11]

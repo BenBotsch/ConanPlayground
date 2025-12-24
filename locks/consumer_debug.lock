@@ -1,0 +1,10 @@
+{
+    "version": "0.5",
+    "requires": [
+        "hello/0.1.0#2e2b0f9752b6f5c3cbaebf3e9072f142%1766492243.7754667",
+        "adder/0.1.0#3d52dcfa4fda0cab3ef7d7c3fc33f733%1766493549.984431"
+    ],
+    "build_requires": [],
+    "python_requires": [],
+    "config_requires": []
+}
