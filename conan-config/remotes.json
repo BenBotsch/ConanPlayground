@@ -1,0 +1,36 @@
+{
+  "remotes": [
+    {
+      "name": "cache",
+      "url": "http://localhost:8083",
+      "verify_ssl": false,
+      "disabled": false
+    },
+    {
+      "name": "artifactory",
+      "url": "http://localhost:8081/artifactory/api/conan/conan-v2-local",
+      "verify_ssl": false,
+      "disabled": false
+    },
+    {
+      "name": "nexus",
+      "url": "http://localhost:8084/repository/conan-hosted",
+      "verify_ssl": false,
+      "disabled": true
+    },
+    {
+      "name": "git-recipes",
+      "url": "https://github.com/<org>/git-conan-recipes.git",
+      "verify_ssl": true,
+      "disabled": false,
+      "type": "git"
+    },
+    {
+      "name": "conancenter",
+      "url": "https://center2.conan.io",
+      "verify_ssl": true,
+      "disabled": false
+    }
+  ]
+}
+

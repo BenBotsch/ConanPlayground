@@ -1,0 +1,14 @@
+version: "3.9"
+
+services:
+  artifactory:
+    image: releases-docker.jfrog.io/jfrog/artifactory-cpp-ce:latest
+    container_name: artifactory
+    ports:
+      - "8081:8081"
+      - "8082:8082"
+    volumes:
+      - artifactory_data:/var/opt/jfrog/artifactory
+
+volumes:
+  artifactory_data:
